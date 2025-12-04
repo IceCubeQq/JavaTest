@@ -1,0 +1,9 @@
+org\example\parser\CsvParser.class
+org\example\Main.class
+org\example\resolver\IResolver.class
+org\example\resolver\Streams$1.class
+org\example\chart\ChartMapper.class
+org\example\chart\ChartDrawer.class
+org\example\resolver\Streams.class
+org\example\model\Player.class
+org\example\model\Position.class

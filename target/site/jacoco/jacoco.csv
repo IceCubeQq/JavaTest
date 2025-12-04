@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Para1711,org.example.chart,ChartMapper,3,31,0,2,1,9,1,4,1,3
+Para1711,org.example.chart,ChartDrawer,22,0,0,0,6,0,2,0,2,0
+Para1711,org.example.model,Position,0,27,0,0,0,5,0,1,0,1
+Para1711,org.example.model,Player,0,27,0,0,0,1,0,1,0,1
+Para1711,org.example.resolver,Streams,2,264,0,34,1,75,1,36,1,18
+Para1711,org.example,Main,23,0,0,0,8,0,2,0,2,0
+Para1711,org.example.parser,CsvParser,48,3,0,0,8,1,2,1,2,1

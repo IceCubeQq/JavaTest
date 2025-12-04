@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ChartDrawer.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Para1711</a> &gt; <a href="index.source.html" class="el_package">org.example.chart</a> &gt; <span class="el_source">ChartDrawer.java</span></div><h1>ChartDrawer.java</h1><pre class="source lang-java linenums">package org.example.chart;
+
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartFrame;
+import org.jfree.chart.JFreeChart;
+import org.jfree.data.general.PieDataset;
+<span class="nc" id="L7">public class ChartDrawer {</span>
+    public static void showPieChart(PieDataset dataset, String title) {
+<span class="nc" id="L9">        JFreeChart chart = ChartFactory.createPieChart(title, dataset, true, true,</span>
+                false);
+<span class="nc" id="L11">        ChartFrame frame = new ChartFrame(title, chart);</span>
+<span class="nc" id="L12">        frame.pack();</span>
+<span class="nc" id="L13">        frame.setVisible(true);</span>
+<span class="nc" id="L14">    }</span>
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
