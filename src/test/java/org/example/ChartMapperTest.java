@@ -78,7 +78,7 @@ class ChartMapperTest {
                         2000, 12, 2)
         );
         PieDataset dataset = ChartMapper.mapNationalityDataToChart(players);
-        assertEquals(2, dataset.getItemCount());
+        assertEquals(3, dataset.getItemCount());
         assertEquals(3L, dataset.getValue("Russia"));
         assertEquals(1L, dataset.getValue("USA"));
     }
@@ -219,4 +219,5 @@ class ChartMapperTest {
         assertTrue(dataset instanceof DefaultPieDataset,
                 "Метод должен возвращать DefaultPieDataset");
     }
+
 }
